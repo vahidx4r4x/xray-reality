@@ -1,6 +1,6 @@
 # xray-reality
 This is a Bash script that installs Xray Beta and downloads the configuration for the repository created by [Teegrce](https://twitter.com/Teegrce) for Iran inside this repository with your own key and places it only with one command :)
-This Script is forked from @sajjadgd with some improvements such as "AdGuard DNS" for Ad Blocking and "XTLS-RPRX-VISION" Flow for added security.
+This Script is forked from [@sajjadgd](https://github.com/sajjaddg) with some improvements such as "AdGuard DNS" for Ad Blocking and "XTLS-RPRX-VISION" Flow for added security.
 #
 ## Installation Guide
 just need you to run this command

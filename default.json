@@ -1,7 +1,7 @@
 {
-    "name": "vless+tls+h2+reality",
-    "email":"sajjaddg",
-    "port": 8000,
+    "name": "VLESS Reality",
+    "email":"vahidx4r4x",
+    "port": 443,
     "sni": "yahoo.com",
     "path": "%2F"
 }

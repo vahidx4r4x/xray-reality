@@ -60,7 +60,7 @@ docker rm -f xrayreality
 ```
 #
 ## Note
-1. I have only tested it on Ubuntu 22 and wrote it for that system. Although I have the time and willingness to write it for other systems, I don't think I will need to do so unless I am forced to.
+1. This script is tested on Ubuntu 20.04 LTS
 2. I used ChatGPT to translate my words. Please pardon any mistakes in the translation.
 
 ## ToDo

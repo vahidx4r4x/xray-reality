@@ -20,11 +20,9 @@
   },
   "dns": {
     "servers": [
-      "https+local://cloudflare-dns.com/dns-query",
-      "1.1.1.1",
-      "1.0.0.1",
-      "8.8.8.8",
-      "8.8.4.4",
+      "https+local://94.140.15.15/dns-query",
+      "94.140.15.15",
+      "94.140.14.14",
       "localhost"
     ]
   },
@@ -38,16 +36,17 @@
           {
             "email": "",
             "id": "",
-            "flow": ""
+            "flow": "xtls-rprx-vision"
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "h2",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
           "show": false,
+          "fingerprint": "chrome",
           "dest": "",
           "xver": 0,
           "maxTimeDiff": 0,
@@ -90,16 +89,6 @@
         "inboundTag": ["api"],
         "outboundTag": "api",
         "type": "field"
-      },
-      {
-        "domain": ["Samandehi.ir"],
-        "type": "field",
-        "outboundTag": "blocked"
-      },
-      {
-        "type": "field",
-        "ip": ["geoip:ir", "geoip:private"],
-        "outboundTag": "blocked"
       },
       {
         "protocol": ["bittorrent"],
